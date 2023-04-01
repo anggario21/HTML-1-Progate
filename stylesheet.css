@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 header {
   background-color: #404146;
@@ -14,14 +15,14 @@ header {
 header li {
   list-style: none;
   float: left;
-  padding: 0 15px;
+  padding: 0 25px;
 }
 
 .header-left {
   float: left;
   font-size: large;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 9px;
   line-height: 65px;
   padding: 0 20px;
 }
@@ -34,4 +35,34 @@ header li {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.top-wrapper {
+  text-align: center;
+  padding: 65px;
+  color: #404146;
+}
+
+.top-wrapper span {
+  color: yellow;
+}
+.top-wrapper img {
+  width: 200px;
+}
+
+.top-wrapper h1 {
+  font-size: 100px;
+  margin: 15px 0px;
+  font-weight: 700;
+}
+
+.top-wrapper h2 {
+  font-weight: 100;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.about-wrapper {
+  background-color: #f4f4f4;
+  padding: 50px 0px;
+  text-align: center;
 }
