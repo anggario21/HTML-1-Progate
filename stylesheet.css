@@ -10,6 +10,8 @@ header {
   background-color: #404146;
   color: white;
   height: 65px;
+  position: sticky;
+  top: 0;
 }
 
 header li {
@@ -64,5 +66,96 @@ header li {
 .about-wrapper {
   background-color: #f4f4f4;
   padding: 50px 0px;
+  text-align: center;
+}
+.section-title {
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+}
+.about-wrapper h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: 100;
+}
+.project-wrapper {
+  padding: 50px 0px;
+}
+.project-wrapper .row {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.project-wrapper h1 {
+  margin-bottom: 30px;
+}
+.project-wrapper h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.project-wrapper img {
+  width: 200px;
+  margin: 0px 50px;
+  box-shadow: 10px 10px #f4f4f4;
+}
+.contact-wrapper {
+  background-color: #f4f4f4;
+  padding: 50px 0px;
+}
+
+.contact-wrapper input,
+textarea {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 14px;
+  border: 0px solid #dee7ec;
+  border-radius: 15px;
+}
+
+.contact-wrapper .row {
+  text-align: center;
+  margin: 20px 0 auto;
+}
+.contact-wrapper h1 {
+  margin-bottom: 30px;
+}
+
+.isi-form {
+  width: 600px;
+  color: #889eab;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-submit {
+  background-color: #f7e989;
+  color: #404146;
+  width: 400px;
+}
+
+footer {
+  height: 200px;
+  padding: 40px;
+  background-color: #7c7d82;
+  color: #fff;
+}
+
+.footer-left {
+  font-size: 20px;
+  float: left;
+  letter-spacing: 6px;
+  font-weight: 600;
+}
+.footer-right {
+  float: right;
+}
+.footer-right li {
+  margin-bottom: 20px;
+  list-style: none;
   text-align: center;
 }
